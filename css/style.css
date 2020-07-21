@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    font-family: "Lazer 84", 'Times New Roman', 'MS Sans serif', 'Lucida Sans Unicode';
+    color: #CCB878;
+}
+
+
+/* Police à appliquer sur toute la page */
+
+@font-face {
+    font-family: "Lazer 84";
+    src: url('Lazer84.ttf');
+}
+
+#navigation {
+    position: fixed;
+    z-index: 1;
+    font-size: 150%;
+}
+
+#menuNav {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    width: 18%;
+    text-align: center;
+}
+
+a p:hover {
+    color: green;
+}
+
+#accueil {
+    background-image: url(zeldaBlack.jpg);
+    /* background-image: url(images/triforce.jpg); */
+    background-position: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills {
+    background-color: #2d2d2d;
+    font-size: 180%;
+}
+
+#phrase {
+    justify-content: center;
+    text-align: center;
+    padding-top: 4%;
+    letter-spacing: 20px;
+    font-size: 130%;
+    /* text-decoration: underline; */
+}
+
+#test,
+#devBack {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: right;
+    height: 48vh;
+    width: 80%;
+}
+
+#cursus {
+    width: 100vw;
+}

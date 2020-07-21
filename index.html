@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>PortFolio David Venjon</title>
+    <!-- Les fichiers CSS -->
+    <link rel="stylesheet" href="css/classes.css">
+    <link rel="stylesheet" href="css/progressBar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Le favicon -->
+    <link rel="icon" type="image/png" href="images/faviconZelda.png" />
+    <!-- Le JS -->
+    <script type="text/javascript" src="script.js"></script>
+    <script src="jQuery.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- La barre de navigation -->
+        <nav id="navigation">
+            <ul id="menuNav" class="width100">
+                <li>
+                    <a href="#accueil">
+                        <p>Accueil</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#skills">
+                        <p>My skills</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#cursus">
+                        <p>My curriculum</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#career">
+                        <p>My career</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        <p>Contact</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- La page d'accueil -->
+    <section id="accueil" class="height100 flex">
+        <div class="nameJob textAlignCenter">
+            <p>David</p><br>
+            <p>VENJON</p>
+        </div>
+        <div class="nameJob textAlignCenter">
+            <p>Testeur</p><br>
+            <p>logiciel</p>
+        </div>
+    </section>
+
+    <!-- La page de mes skills -->
+    <section id="skills" class="height100">
+
+        <p id="phrase">Mes compétences techniques <br> testing et développement</p>
+
+        <div class="all flex">
+
+            <!-- Côté gauche -->
+            <div class="left width50">
+
+                <div id="test" class="textAlignCenter height50">
+                    <p>Jira</p>
+                    <p>Postman</p>
+                    <p>Cypress</p>
+                    <p>Kibana</p>
+                    <p>Squash TM</p>
+                    <p>Katalon Recorder</p>
+                </div>
+
+                <div id="divers" class="textAlignCenter">
+                    <p>Bash</p>
+                    <p>Git</p>
+                    <p>MySQL</p>
+                    <p>Wamp</p>
+                    <p>Wordpress</p>
+                    <p>Linux et Windows</p>
+                </div>
+
+            </div>
+
+            <!-- Côté droit -->
+            <div class="right width50">
+
+                <div id="devBack" class="textAlignCenter">
+                    <p>JAVA</p>
+                    <p>Python</p>
+                    <p>PHP</p>
+                    <p>Laravel</p>
+                    <p>AJAX</p>
+                    <p>Node.js</p>
+                </div>
+
+                <div id="devFront" class="textAlignCenter">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <p>jQuery</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- La page de mon cursus de formation -->
+    <section id="cursus" class="height100">
+
+        <div class="all flex">
+
+            <!-- Côté gauche -->
+            <div class="left width50">
+
+                <div class="schoolDiv flex">
+                    <img class="swordUp" src="images/epeeZelda.png" alt="Epée de Zelda">
+                    <div class="school">
+                        <h1>Testeur Logiciel</h1>
+                        <p>IT Akademy</p>
+                        <p>Lyon</p>
+                        <p>2020</p>
+                    </div>
+                </div>
+
+                <div class="schoolDiv flex">
+                    <img class="swordDown" src="images/epeeZelda.png" alt="Epée de Zelda">
+                    <div class="school2000">
+                        <h1>Technicien supérieur du commerce option grande distribution</h1>
+                        <p>Pole formation CCI</p>
+                        <p>Strasbourg</p>
+                        <p>2003</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="right width50">
+
+                <div class="schoolDiv flex">
+                    <img class="swordUp" src="images/epeeZelda.png" alt="Epée de Zelda">
+                    <div class="school">
+                        <h1>Développeur web et mobile</h1>
+                        <p>IT Akademy</p>
+                        <p>Lyon</p>
+                        <p>2019</p>
+                    </div>
+                </div>
+
+                <div class="schoolDiv flex">
+                    <img class="swordDown" src="images/epeeZelda.png" alt="Epée de Zelda">
+                    <div class="school2000">
+                        <h1>Baccalauréat STT (Sciences et Techniques du Tertiaire) option ACC (commerce)</h1>
+                        <p>Lycée Jean Monnet</p>
+                        <p>Strasbourg</p>
+                        <p>2001</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Création d'une progress bar -->
+    <div id="progress">
+        <p>Retrieving data...<strong>0%</strong></p>
+        <progress value="5" min="0" max="100">0%</progress>
+    </div>
+    <div id="progress">
+        <p>Retrieving data...<strong>0%</strong></p>
+        <progress value="50" min="5" max="100"><span></span></progress>
+    </div>
+
+    </section>
+
+</body>
+
+</html>
