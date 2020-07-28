@@ -13,13 +13,16 @@
 }
 
 #navigation {
+    /* width: 99vw; */
     position: fixed;
     z-index: 1;
     font-size: 150%;
+    background-color: black;
 }
 
 #menuNav {
     list-style-type: none;
+    width: 99vw;
 }
 
 nav li {
@@ -29,27 +32,46 @@ nav li {
 }
 
 a p:hover {
-    color: green;
+    color: #03446A;
 }
 
 #accueil {
-    background-image: url(zeldaBlack.jpg);
-    /* background-image: url(images/triforce.jpg); */
+    /* background-image: url(zeldaBlack.jpg); */
+    background-image: url(logoZeldaGris.jpg);
     background-position: center;
-    background-size: 30%;
+    background-size: 25%;
     background-repeat: no-repeat;
     background-color: black;
-    display: flex;
     justify-content: center;
     align-items: center;
+    /* width: 99vw; */
+}
+
+#lienCv1 {
+    width: 99%;
+    height: 20vh;
+    position: absolute;
+    margin-top: 35%;
+    font-size: 150%;
+    letter-spacing: 5px;
+}
+
+div a:hover {
+    color: #03446A;
 }
 
 #skills {
-    background-color: #2d2d2d;
-    font-size: 180%;
+    /* background-image: url(logoZeldaGris.jpg); */
+    background-image: url(zeldaBlack.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    background-color: black;
+    font-size: 120%;
+    /* width: 99vw; */
 }
 
-#phrase {
+#phraseSkills {
     justify-content: center;
     text-align: center;
     padding-top: 4%;
@@ -64,10 +86,77 @@ a p:hover {
     vertical-align: middle;
     text-align: center;
     justify-content: right;
-    height: 48vh;
-    width: 80%;
+    height: 45vh;
+    width: 10%;
 }
 
 #cursus {
-    width: 100vw;
+    background-color: #CCB878;
+}
+
+#phraseCursus {
+    /* width: 99vw; */
+    justify-content: center;
+    text-align: center;
+    padding-top: 4%;
+    letter-spacing: 20px;
+    font-size: 150%;
+    color: #03446A;
+}
+
+#flipCards {
+    /* width: 99vw; */
+    margin-top: 3%;
+    /* display: inline-flex; */
+}
+
+#lienCv2 {
+    width: 99%;
+    height: 20vh;
+    position: absolute;
+    margin-top: 30%;
+    font-size: 150%;
+    letter-spacing: 5px;
+}
+
+div div:nth-child(5) a:hover {
+    color: rgb(43, 40, 40);
+}
+
+a span:hover {
+    color: rgb(43, 40, 40);
+}
+
+#career {
+    background-color: rgb(43, 40, 40);
+}
+
+#phraseCareer {
+    /* width: 99vw; */
+    justify-content: center;
+    text-align: center;
+    padding-top: 3%;
+    letter-spacing: 20px;
+    font-size: 150%;
+    color: #03446A;
+}
+
+#careerSection {
+    justify-content: center;
+    text-align: center;
+}
+
+#contact {
+    background-color: rgb(43, 40, 40);
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+}
+
+#CvFooter,
+#mail {
+    height: 15vh;
+    width: 100%;
+    font-size: 200%;
+    letter-spacing: 5px;
 }

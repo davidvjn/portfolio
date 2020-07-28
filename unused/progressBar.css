@@ -56,7 +56,7 @@ progress::-webkit-progress-bar {
     background: transparent;
 }
 
-progress[value='100'] span {
+progress[value='5'] span {
     width: 100%;
 }
 

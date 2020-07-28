@@ -6,20 +6,22 @@
     <title>PortFolio David Venjon</title>
     <!-- Les fichiers CSS -->
     <link rel="stylesheet" href="css/classes.css">
-    <link rel="stylesheet" href="css/progressBar.css">
+    <link rel="stylesheet" href="css/flipCards.css">
+    <!-- <link rel="stylesheet" href="css/progressBar.css"> -->
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- Le favicon -->
-    <link rel="icon" type="image/png" href="images/faviconZelda.png" />
+    <link rel="icon" type="image/png" href="img/faviconZelda.png" />
     <!-- Le JS -->
-    <script type="text/javascript" src="script.js"></script>
-    <script src="jQuery.js"></script>
+    <!-- <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/jQuery.jsQuery.js"></script> -->
 </head>
 
 <body>
     <header>
         <!-- La barre de navigation -->
         <nav id="navigation">
-            <ul id="menuNav" class="width100">
+            <ul id="menuNav">
                 <li>
                     <a href="#accueil">
                         <p>Accueil</p>
@@ -55,38 +57,43 @@
             <p>David</p><br>
             <p>VENJON</p>
         </div>
+
         <div class="nameJob textAlignCenter">
             <p>Testeur</p><br>
             <p>logiciel</p>
         </div>
+
+        <div id="lienCv1" class="textAlignCenter">
+            <a class="Cv" href="VenjonDavidTesteur.pdf" target="_blank">Mon CV</a>
+        </div>
     </section>
 
-    <!-- La page de mes skills -->
+    <!-- La section de mes skills -->
     <section id="skills" class="height100">
 
-        <p id="phrase">Mes compétences techniques <br> testing et développement</p>
+        <p id="phraseSkills">Mes compétences techniques <br>
+            <span class="colorTest">testing</span> et <span class="colorDev">développement</span></p>
 
         <div class="all flex">
 
             <!-- Côté gauche -->
             <div class="left width50">
 
-                <div id="test" class="textAlignCenter height50">
-                    <p>Jira</p>
-                    <p>Postman</p>
-                    <p>Cypress</p>
-                    <p>Kibana</p>
-                    <p>Squash TM</p>
-                    <p>Katalon Recorder</p>
+                <div id="test" class="textAlignCenter height50 colorTest">
+                    <p class="colorTest">Jira</p>
+                    <p class="colorTest">Postman</p>
+                    <p class="colorTest">Cypress</p>
+                    <p class="colorTest">Kibana</p>
+                    <p class="colorTest">Squash TM</p>
+                    <p class="colorTest">Katalon Recorder</p>
                 </div>
 
                 <div id="divers" class="textAlignCenter">
-                    <p>Bash</p>
-                    <p>Git</p>
-                    <p>MySQL</p>
-                    <p>Wamp</p>
-                    <p>Wordpress</p>
-                    <p>Linux et Windows</p>
+                    <p class="colorDev">Bash</p>
+                    <p class="colorDev">Git</p>
+                    <p class="colorDev">MySQL</p>
+                    <p class="colorDev">Wordpress</p>
+                    <p class="colorDev">Linux et Windows</p>
                 </div>
 
             </div>
@@ -95,19 +102,19 @@
             <div class="right width50">
 
                 <div id="devBack" class="textAlignCenter">
-                    <p>JAVA</p>
-                    <p>Python</p>
-                    <p>PHP</p>
-                    <p>Laravel</p>
-                    <p>AJAX</p>
-                    <p>Node.js</p>
+                    <p class="colorDev">JAVA</p>
+                    <p class="colorDev">Python</p>
+                    <p class="colorDev">PHP</p>
+                    <p class="colorDev">Laravel</p>
+                    <p class="colorDev">AJAX</p>
+                    <p class="colorDev">Node.js</p>
                 </div>
 
                 <div id="devFront" class="textAlignCenter">
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-                    <p>jQuery</p>
+                    <p class="colorDev">HTML</p>
+                    <p class="colorDev">CSS</p>
+                    <p class="colorDev">JavaScript</p>
+                    <p class="colorDev">jQuery</p>
                 </div>
 
             </div>
@@ -116,76 +123,121 @@
 
     </section>
 
-    <!-- La page de mon cursus de formation -->
+    <!-- La section de mon cursus de formation -->
     <section id="cursus" class="height100">
 
-        <div class="all flex">
+        <p id="phraseCursus">Mon cursus de formation</p>
 
-            <!-- Côté gauche -->
-            <div class="left width50">
+        <div id="flipCards">
 
-                <div class="schoolDiv flex">
-                    <img class="swordUp" src="images/epeeZelda.png" alt="Epée de Zelda">
-                    <div class="school">
-                        <h1>Testeur Logiciel</h1>
-                        <p>IT Akademy</p>
-                        <p>Lyon</p>
-                        <p>2020</p>
+            <div class="card">
+                <div class="content">
+                    <div class="front">
+                        Testeur <br>Logiciel
+                    </div>
+                    <div class="back">
+                        IT Akademy <br> Lyon <br> 2020
                     </div>
                 </div>
-
-                <div class="schoolDiv flex">
-                    <img class="swordDown" src="images/epeeZelda.png" alt="Epée de Zelda">
-                    <div class="school2000">
-                        <h1>Technicien supérieur du commerce option grande distribution</h1>
-                        <p>Pole formation CCI</p>
-                        <p>Strasbourg</p>
-                        <p>2003</p>
-                    </div>
-                </div>
-
             </div>
 
-            <div class="right width50">
-
-                <div class="schoolDiv flex">
-                    <img class="swordUp" src="images/epeeZelda.png" alt="Epée de Zelda">
-                    <div class="school">
-                        <h1>Développeur web et mobile</h1>
-                        <p>IT Akademy</p>
-                        <p>Lyon</p>
-                        <p>2019</p>
+            <div class="card">
+                <div class="content">
+                    <div class="front">
+                        Développeur <br> web et mobile
+                    </div>
+                    <div class="back">
+                        IT Akademy <br> Lyon <br> 2019
                     </div>
                 </div>
+            </div>
 
-                <div class="schoolDiv flex">
-                    <img class="swordDown" src="images/epeeZelda.png" alt="Epée de Zelda">
-                    <div class="school2000">
-                        <h1>Baccalauréat STT (Sciences et Techniques du Tertiaire) option ACC (commerce)</h1>
-                        <p>Lycée Jean Monnet</p>
-                        <p>Strasbourg</p>
-                        <p>2001</p>
+            <div class="card">
+                <div class="content">
+                    <div class="front">
+                        Technicien <br> supérieur <br> du commerce
+                    </div>
+                    <div class="back">
+                        Pole Formation <br> Strasbourg <br> 2003
                     </div>
                 </div>
+            </div>
 
+            <div class="card">
+                <div class="content">
+                    <div class="front">
+                        Bac STT <br> ACC (commerce)
+                    </div>
+                    <div class="back">
+                        Lycée Jean Monnet <br> Strasbourg <br> 2001
+                    </div>
+                </div>
+            </div>
+
+            <div id="lienCv2" class="textAlignCenter">
+                <a class="Cv" href="VenjonDavidTesteur.pdf" target="_blank"><span class="blue">Mon CV</span></a>
             </div>
 
         </div>
 
     </section>
 
+    <!-- La section de mon parcours pro -->
+    <section id="career" class="height100">
 
-    <!-- Création d'une progress bar -->
-    <div id="progress">
-        <p>Retrieving data...<strong>0%</strong></p>
-        <progress value="5" min="0" max="100">0%</progress>
-    </div>
-    <div id="progress">
-        <p>Retrieving data...<strong>0%</strong></p>
-        <progress value="50" min="5" max="100"><span></span></progress>
-    </div>
+        <p id="phraseCareer">Mon parcours professionnel</p>
+        <br>
+        <div id="careerSection">
+            <h1 class="year">2020</h1>
+            <h3 class="job">Testeur QA</h3>
+            <p class="company"><a href="https://www.wizaplace.com/fr/" target="_blank">Wizaplace</a> Lyon</p>
+            <br>
+            <h1 class="year">2019</h1>
+            <h3 class="job">Développeur web</h3>
+            <p class="company">Parisiana Lyon</p>
+            <br>
+            <h1 class="year">2010 - 2018</h1>
+            <h3 class="job">Chef de secteur alimentaire</h3>
+            <p class="company"><a href="https://www.monoprix.fr/" target="_blank">Monoprix</a> Dijon (21) puis Vienne (38) et Oullins (69)</p>
+            <!-- <p class="company">Responsable de mon secteur : Développement de chiffre d'afffaires, marges, réduction des pertes, recrutement, formation, gestion et réduction des stocks, réimplantation</p> -->
+            <br>
+            <h1 class="year">2008 - 2010</h1>
+            <h3 class="job">Chef de secteur fruits et légumes et poisson</h3>
+            <p class="company"><a href="https://www.grandfrais.com/" target="_blank">Grand Frais</a> à Haguenau puis Fegersheim (67)</p>
+            <br>
+            <h1 class="year">2006 - 2008</h1>
+            <h3 class="job">Chef de rayon fruits et légumes</h3>
+            <p class="company"><a href="https://www.intermarche.com/" target="_blank">Intermarché</a> Brumath</p>
+            <br>
+            <h1 class="year">2005</h1>
+            <h3 class="job">Technicien applicateur</h3>
+            <p class="company">BCS France Vendenheim</p>
+            <br>
+            <h1 class="year">2003 à 2005</h1>
+            <h3 class="job">Chef de rayon</h3>
+            <p class="company">Rond Point Geispolsheim</p>
+            <br>
+            <h1 class="year">2001 à 2003</h1>
+            <h3 class="job">Gestionnaire commercial</h3>
+            <p class="company"><a href="https://www.supermarchesmatch.fr/" target="_blank">Match</a> Souffelweyersheim puis Wasselonne</p>
+        </div>
 
     </section>
+
+    <footer id="contact">
+
+        <div id="CvFooter">
+            <br>
+            <br>
+            <a href="VenjonDavidTesteur.pdf" target="_blank">Mon CV</a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="mail">
+            <a href="mailto:david.venjon@outlook.fr">Contactez-moi </a>
+        </div>
+    </footer>
 
 </body>
 

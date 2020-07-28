@@ -1,0 +1,95 @@
+/* Ecrans jusqu'à 479px : smartphone en portrait */
+
+@media screen and (max-width: 479px) {
+    /* baisser le lien vers le CV (section Accueil)*/
+    #lienCv1 {
+        margin-top: 40%;
+        font-size: 175%;
+        letter-spacing: 6px;
+    }
+    /* baisser le lien vers le CV (section Cursus) */
+    #lienCv2 {
+        margin-top: 50%;
+        font-size: 175%;
+        letter-spacing: 6px;
+    }
+    /* baisser la div */
+    /* #divers {
+        margin-top: 30%;
+    } */
+    /* adapter les flipcards */
+    #flipCards {
+        font-size: 80%;
+        height: 40%;
+    }
+    .front,
+    .back {
+        font-size: 80%;
+    }
+}
+
+
+/* Ecrans de 480 et plus (jusqu'à 959px) : smartphone en paysage, tablette en portrait et petite tablette en paysage  */
+
+@media screen and (min-width: 480px) {
+    /* baisser le lien vers le CV */
+    #lienCv1 {
+        margin-top: 50%;
+        font-size: 180%;
+        letter-spacing: 6px;
+    }
+    /* baisser le lien vers le CV (section Cursus) */
+    #lienCv2 {
+        margin-top: 50%;
+        font-size: 180%;
+        letter-spacing: 6px;
+    }
+    /* baisser la div */
+    /* #divers {
+        margin-top: 30%;
+    } */
+    /* adapter les flipcards */
+    #flipCards {
+        font-size: 110%;
+    }
+    .card {
+        height: 45vh;
+    }
+    .front,
+    .back {
+        font-size: 100%;
+    }
+}
+
+
+/* Ecrans de 960 et plus (jusqu'à 1280px) : tablette en paysage, écran d'ordinateur de petite et moyenne taille */
+
+@media screen and (max-width: 960px) {
+    /* baisser le lien vers le CV */
+    #lienCv1 {
+        margin-top: 50%;
+        font-size: 180%;
+        letter-spacing: 6px;
+    }
+    /* baisser le lien vers le CV (section Cursus) */
+    #lienCv2 {
+        margin-top: 50%;
+        font-size: 180%;
+        letter-spacing: 6px;
+    }
+    /* baisser la div */
+    /* #divers {
+        margin-top: 30%;
+    } */
+    /* adapter les flipcards */
+    #flipCards {
+        font-size: 110%;
+    }
+    .card {
+        height: 45vh;
+    }
+    .front,
+    .back {
+        font-size: 100%;
+    }
+}

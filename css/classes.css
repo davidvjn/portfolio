@@ -1,19 +1,19 @@
 /* Création des classes réutilisées régulièrement */
 
-.width100 {
-    width: 100vw;
-}
-
 .width50 {
     width: 50vw;
 }
 
-.height100 {
-    height: 100vh;
+.width99 {
+    width: 99vw;
 }
 
 .height50 {
     height: 50vh;
+}
+
+.height100 {
+    height: 100vh;
 }
 
 .textAlignCenter {
@@ -25,45 +25,41 @@
 }
 
 .nameJob {
-    width: 50%;
-    height: 30%;
-    font-size: 350%;
+    width: 100%;
+    height: 80vh;
+    font-size: 300%;
     letter-spacing: 20px;
+    position: relative;
+    margin-top: 20%;
+}
+
+.colorTest {
+    color: #c0a754;
+}
+
+.colorDev {
+    color: #ddd1aa;
 }
 
 .all {
     letter-spacing: 9px;
 }
 
-.schoolDiv {
-    height: 50vh;
-    width: 100vh;
-    justify-content: center;
+.blue {
+    color: #03446A;
 }
 
-.swordUp {
-    /* width: 10%; */
-    height: 60%;
-    transform: rotate(270deg);
-    margin-left: 7%;
+.year {
+    letter-spacing: 10px;
+    font-size: 150%;
 }
 
-.swordDown {
-    /* width: 10%; */
-    height: 60%;
-    transform: rotate(270deg);
-    margin-left: 15%;
+.job {
+    letter-spacing: 15px;
+    font-size: 100%;
 }
 
-.school {
-    /* width: 10%; */
-    text-align: center;
-    margin-top: 8%;
-    margin-right: 20%;
-}
-
-.school2000 {
-    /* width: 10%; */
-    text-align: center;
-    margin-top: 8%;
+.company {
+    letter-spacing: 3px;
+    font-size: 85%;
 }
